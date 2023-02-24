@@ -1,15 +1,69 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro'
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout pageTitle='Frontier Ward, Cheyenne, Wyoming'>
+  <div>
+    <section class='p-4 flex flex-col items-center'>
+      <h1 class='pt-4 text-4xl font-bold'>Cheyenne Frontier Ward</h1>
+      <p class='text-3xl'>Welcomes</p>
+      <p class='text-3xl'>Members, Visitors, Family &amp; Friends</p>
+
+      <h2 class='pt-8 text-3xl font-bold'>2023 Ward Theme</h2>
+      <p class='pt-4 text-2xl font-bold'>&quot;The Healing Power of Gratitude&quot;</p>
+      <p class='pt-4 max-w-2xl mx-auto'>
+        &quot;I am referring to the healing power of gratitude. Over my nine and a half decades of
+        life, I have concluded that counting our blessings is far better than recounting our
+        problems. No matter our situation, showing gratitude for our privileges is a fast-acting and
+        long-lasting spiritual prescription.&quot; -{' '}
+        <i class='italic'>President Russell M. Nelson</i>
+      </p>
+    </section>
+
+    <section class='pt-16 max-w-xl mx-auto flex flex-col items-center'>
+      <h2 class='text-3xl font-bold'>Schedule</h2>
+      <div class='flex flex-col items-center'>
+        <p class='text-xl pt-4'>Sacrament Meeting - Sundays at 12:00 pm</p>
+        <p class='text-xl pt-4'>Primary - Sundays at 1:00 pm</p>
+        <p class='text-xl pt-4'>Sunday School - 1st and 3rd Sundays at 1:00 pm</p>
+        <p class='text-xl pt-4'>Young Men / Young Women - 2nd and 4th Sundays at 1:00 pm</p>
+        <p class='text-xl pt-4'>Relief Society - 2nd and 4th Sundays at 1:00 pm</p>
+        <p class='text-xl pt-4'>Elders Quorum - 2nd and 4th Sundays at 1:00 pm</p>
+      </div>
+    </section>
+
+    <section class='pt-16 max-w-xl mx-auto flex flex-col items-center'>
+      <h2 class='text-3xl font-bold'>Upcoming Events</h2>
+      <div class='flex flex-col items-center pt-4'>
+        <h3 class='text-2xl'>Relief Society Activity</h3>
+        <p>February 21, 2023 at 6:30 pm</p>
+        <p>Lincolnway Building, Relief Society room</p>
+        <p>Putting together activity packets for children in the hospital</p>
+      </div>
+    </section>
+
+    <section class='pt-16 max-w-xl mx-auto flex flex-col items-center'>
+      <h2 class='text-3xl pb-4 font-bold'>Leadership</h2>
+      <div class='grid grid-cols-2 p-4 gap-x-12 gap-y-4 border border-gray-300'>
+        <p class='text-end'>Bishop</p>
+        <p>Dave Harnish</p>
+        <p class='text-end'>1st Counselor</p>
+        <p>Michael Butterfield</p>
+        <p class='text-end'>2nd Counselor</p>
+        <p>Andy Bailey</p>
+        <p class='text-end'>Executive Secretary</p>
+        <p>Jody Speight</p>
+        <p class='text-end'>Ward Clerk</p>
+        <p>Raymond Nelson</p>
+        <p class='text-end'>Elders Quorum President</p>
+        <p>Jeff Fletcher</p>
+        <p class='text-end'>Relief Society President</p>
+        <p>Christina Nalen</p>
+        <p class='text-end'>Primary President</p>
+        <p>Haley Fisher</p>
+        <p class='text-end'>Young Women President</p>
+        <p>Heather Fletcher</p>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
