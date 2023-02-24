@@ -5,15 +5,16 @@ import Footer from '../components/Footer.astro'
 const { pageTitle } = Astro.props
 ---
 
+<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='utf-8' />
-    <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
     <meta name='viewport' content='width=device-width' />
     <meta name='generator' content={Astro.generator} />
-    <title>{pageTitle}</title>
     <meta name='description' content='Frontier Ward - Cheyenne, Wyoming' />
+    <title>{pageTitle}</title>
     <script defer data-domain='frontierward.org' src='https://plausible.io/js/script.js'></script>
+    <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
   </head>
   <body>
     <div class='bg-gray-100'>
